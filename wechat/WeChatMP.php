@@ -1,5 +1,8 @@
 <?php
 
+require dirname(__FILE__)."/Config.php";
+require dirname(__FILE__)."/Services/ShareJS.php";
+
 class WeChatMP {
 
     const WEIXIN_SHARE_JS  = 1;
