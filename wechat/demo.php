@@ -1,8 +1,6 @@
 <?php
 
 require dirname(__FILE__)."/WeChatMP.php";
-require dirname(__FILE__)."/Config.php";
-require dirname(__FILE__)."/Services/ShareJS.php";
 
 $obj = new WeChatMP( WeChatMP::WEIXIN_SHARE_JS );
 $obj = $obj->get();
